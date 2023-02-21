@@ -12,7 +12,7 @@ def play(sound, text):
         time.sleep(1)
 
 def curse():
-    word = random.choice(['bastard', 'cunt', 'damn', 'fuck', 'vagina', 'motherfucker', 'tits', 'piss', 'cocksucker', 'ass'])
+    word = random.choice(['bastard', 'cunt', 'damn', 'fuck', 'vagina', 'motherfucker', 'tits', 'piss', 'cocksucker', 'ass', 'shit'])
     play(f'sounds/{word}.mp3', word.upper())
     time.sleep(0.5)
 
