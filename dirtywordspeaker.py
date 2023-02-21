@@ -20,7 +20,7 @@ def main():
     os.system('cls' if os.name == 'nt' else 'clear')
 
     play('sounds/1.mp3', 'Dirty Word Speaker - A good piece of software by Fat Man')
-    play('sounds/2.mp3', 'Aughhh Yeah Folks! Its time to listen to some dirty words!\nPress any key to make me speak some dirty words...')
+    play('sounds/2.mp3', 'Aughhh Yea Folks!   Its time to listen to some dirty words!\nPress any key to make me speak some dirty words...')
     input()
     while True:
         curse()
